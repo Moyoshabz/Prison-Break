@@ -53,7 +53,7 @@ print(year)
 - Find the Max and Min Year
 - Created a bar chart to visualize the trends over time.
 
-![iamge_1](./images2/image1.png)
+![iamge_1](./images2/image0.png)
 
 #### Question 2: In which countries do the most attempted helicopter prison escapes occur?
 - Counted the number of attempts per country.
