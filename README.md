@@ -11,6 +11,7 @@ This project analyzes historical data on helicopter prison escape attempts, sour
 2. **In which countries do the most attempted helicopter prison escapes occur?**
 3. **In which countries do helicopter prison breaks have a higher chance of success?**
 4. **How does the number of escapees affect the success of an escape?**
+5. **Which escapees have done it more than once?**
 
 
 The analysis includes data cleaning, exploration, visualization, and a summary presented on a Python-generated dashboard.
@@ -37,6 +38,7 @@ The data was scraped from the Wikipedia page "[List of helicopter prison escapes
 ### 2. Data Cleaning and Exploration
 Steps:
 - Removing/dropping column(s).
+- Adopted imputation for missing prisoner name
 - Converted date fields to year objects for easy analysis.
 
 ---
@@ -59,7 +61,7 @@ print(year)
 - Counted the number of attempts per country.
 - Visualized the results using a horizontal bar chart.
 
-![iamge_1](./images2/image2.png)
+![iamge_1](./images2/image4.png)
 
 
 #### Question 3: In which countries do helicopter prison breaks have a higher chance of success?
@@ -74,9 +76,17 @@ print(year)
 
 ![iamge_1](./images2/image4.png)
 
+
+#### Question 5: Which escapees have done it more than once?
+- Analyzed the prisoners who had escaped more than once.
+- Created a barchart plot to illustrate the trend.
+
+![iamge_1](./images2/image3.png) 
 ---
 
 ### 4. Dashboard Creation
 A summary dashboard was built using Dash to present:
 - Key statistics.
 - Interactive visualizations for exploring the data.
+
+![iamge_1](./images2/dashboard.png)
