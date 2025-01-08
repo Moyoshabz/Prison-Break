@@ -15,7 +15,7 @@ This project analyzes historical data on helicopter prison escape attempts, sour
    
   **Bonus**
   
-6. **Dashboard with Key statistic of the analysis.**
+6. **Dashboard with Key Statistics of the Analysis.**
 
 
 The analysis includes data cleaning, exploration, visualization, and a summary presented on a Python-generated dashboard.
