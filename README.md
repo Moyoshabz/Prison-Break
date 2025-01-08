@@ -34,7 +34,7 @@ The data was scraped from the Wikipedia page "[List of helicopter prison escapes
 
 ---
 
-### 2. Data Cleaning
+### 2. Data Cleaning and Exploration
 Steps:
 - Removing/dropping column(s).
 - Converted date fields to year objects for easy analysis.
@@ -50,6 +50,7 @@ print(year)
 
 #### Question 1: In which year did the most attempts occur?
 - Grouped the data by year and counted the number of attempts.
+- Find the Max and Min Year
 - Created a bar chart to visualize the trends over time.
 
 ![iamge_1](./images2/image1.png)
