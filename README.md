@@ -89,6 +89,6 @@ print(year)
 ### 4. Dashboard Creation
 A summary dashboard was built using Dash to present:
 - Key statistics.
-- Interactive visualizations for exploring the data.
+- Static visualizations for exploring the data.
 
 ![iamge_1](./images2/dashboard.png)
