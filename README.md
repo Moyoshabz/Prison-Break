@@ -12,6 +12,8 @@ This project analyzes historical data on helicopter prison escape attempts, sour
 3. **In which countries do helicopter prison breaks have a higher chance of success?**
 4. **How does the number of escapees affect the success of an escape?**
 5. **Which escapees have done it more than once?**
+  **Bonus**
+6. **Dashboard with Key statistic of the analysis.**
 
 
 The analysis includes data cleaning, exploration, visualization, and a summary presented on a Python-generated dashboard.
@@ -22,8 +24,7 @@ Ensure you have the following installed on your machine:
 - Python 3.x
 - Jupyter Notebook or JupyterLab
 - Required Python libraries:
-  - `helper.py`
-  - `pandas`
+  - `helper.py` - (Compatible with unix system)
   - `matplotlib`
   - `seaborn`
   - `dash`
@@ -35,18 +36,12 @@ The data was scraped from the Wikipedia page "[List of helicopter prison escapes
 
 ---
 
-### 2. Data Cleaning and Exploration
+### 2. Data Cleaning
 Steps:
 - Removing/dropping column(s).
 - Adopted imputation for missing prisoner name
 - Converted date fields to year objects for easy analysis.
-
----
-# Example of data cleaning
-date = "July 23, 2009"
-year = fetch_year("July 23, 2009")
-print(year)
-
+  
 ---
 ### 3. Data Exploration and Visualization
 
@@ -59,7 +54,7 @@ print(year)
 
 #### Question 2: In which countries do the most attempted helicopter prison escapes occur?
 - Counted the number of attempts per country.
-- Visualized the results using table.
+- Visualized the results using a table.
 
 ![iamge_1](./images2/image4.png)
 
@@ -72,7 +67,7 @@ print(year)
 
 #### Question 4: How does the number of escapees affect the success?
 - Analyzed the relationship between the number of escapees and the success of the escape.
-- Created a scatter plot to illustrate the trend.
+- Created a scatter plot to illustrate the correlation and trend.
 
 ![iamge_1](./images2/image2.png)
 
@@ -83,7 +78,8 @@ print(year)
 
 ![iamge_1](./images2/image3.png) 
 
-
+**NB**
+In the dataset, several entries had missing escapee information (denoted by — in the Escapee(s) column). To ensure that our analysis reflects only complete data on escapees, these rows were removed from the analysis. Alternatively, a placeholder value of 'Unknown' could be used in future iterations, depending on the needs of the analysis.
 ---
 
 ### 4. Dashboard Creation
