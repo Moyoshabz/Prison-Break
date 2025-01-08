@@ -98,13 +98,11 @@ Analysis revealed a **positive** correlation between the number of escapees and 
 - Analyzed the prisoners who had escaped more than once.
 - Created a barchart plot to illustrate the trend.
 
-This analysis was **inconclusive** due to missing data. The names of the escapees in certain records were marked as “--” or unknown.
-Details: Missing data was imputed as **"Unknown"** for this analysis, but further research is required to validate results.
+This analysis was **inconclusive** due to missing data. The names of the escapees in certain records were marked as “--” .
+Missing data was imputed as **"Unknown"** for this analysis, but further research is required to validate results.
 
 ![iamge_1](./images2/image3.png) 
 
-**NB**
-In the dataset, several entries had missing escapee information (denoted by — in the Escapee(s) column). To ensure that our analysis reflects only complete data on escapees, these rows were removed from the analysis. Alternatively, a placeholder value of 'Unknown' could be used in future iterations, depending on the needs of the analysis.
 ---
 
 ### 4. Dashboard Creation
