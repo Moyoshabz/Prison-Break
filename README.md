@@ -74,7 +74,7 @@ print(year)
 - Analyzed the relationship between the number of escapees and the success of the escape.
 - Created a scatter plot to illustrate the trend.
 
-![iamge_1](./images2/image4.png)
+![iamge_1](./images2/image2.png)
 
 
 #### Question 5: Which escapees have done it more than once?
