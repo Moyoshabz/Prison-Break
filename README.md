@@ -39,11 +39,13 @@ Steps:
 - Removing/dropping column(s).
 - Converted date fields to year objects for easy analysis.
 
+---
 # Example of data cleaning
 date = "July 23, 2009"
 year = fetch_year("July 23, 2009")
 print(year)
 
+---
 ### 3. Data Exploration and Visualization
 
 #### Question 1: In which year did the most attempts occur?
@@ -71,6 +73,7 @@ print(year)
 
 ![iamge_1](./images2/image4.png)
 
+---
 
 ### 4. Dashboard Creation
 A summary dashboard was built using Dash to present:
