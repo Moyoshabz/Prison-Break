@@ -1,4 +1,4 @@
-# Helicopter Prison Escape Analysis with Moyo
+# Helicopter Prison Escape Analysis
 
 ![iamge_1](./images2/prisonbreak.jpg)
 
