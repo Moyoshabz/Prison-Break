@@ -112,4 +112,4 @@ A summary dashboard was built using Dash to present:
 - Key statistics.
 - Static visualizations for exploring the data.
 
-![iamge_1](./images2/dashboard.png)
+![iamge_1](./images2/download.png)
