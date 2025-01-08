@@ -59,7 +59,7 @@ print(year)
 
 #### Question 2: In which countries do the most attempted helicopter prison escapes occur?
 - Counted the number of attempts per country.
-- Visualized the results using a horizontal bar chart.
+- Visualized the results using table.
 
 ![iamge_1](./images2/image4.png)
 
@@ -68,7 +68,7 @@ print(year)
 - Calculated the success rate of escapes per country.
 - Used a bar chart to show success rates.
 
-![iamge_1](./images2/image3.png)
+![iamge_1](./images2/image1.png)
 
 #### Question 4: How does the number of escapees affect the success?
 - Analyzed the relationship between the number of escapees and the success of the escape.
@@ -82,6 +82,8 @@ print(year)
 - Created a barchart plot to illustrate the trend.
 
 ![iamge_1](./images2/image3.png) 
+
+
 ---
 
 ### 4. Dashboard Creation
