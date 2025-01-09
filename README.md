@@ -66,7 +66,7 @@ The year with the most helicopter prison escape attempts was **1971**. This year
 - Counted the number of attempts per country.
 - Visualized the results using a table.
 
-**France** had the highest number of attempted helicopter prison escapes, followed by t
+**France** had the highest number of attempted helicopter prison escapes, followed by the United States and Greece.
 
 ![iamge_1](./images2/image4.png)
 
@@ -76,7 +76,7 @@ The year with the most helicopter prison escape attempts was **1971**. This year
 - Calculated the success rate of escapes per country.
 - Used a bar chart to show success rates.
 
-**France** also had the highest success rate for helicopter prison escapes, followed by thr United States
+**France** also had the highest success rate for helicopter prison escapes, followed by the United States.
 
 ![iamge_1](./images2/france.png)
 ![iamge_1](./images2/image1.png)
